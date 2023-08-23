@@ -1,5 +1,9 @@
 .profile_card {
-    background-color: hsla(0, 0%, 0%, .4);
+    max-width: calc(100vw - 40px);
+    background-color: hsla(0, 0%, 12%, 0.589);
+    border-radius: 4px;
+    box-shadow: hsla(64, 91%, 47%, 0.445) 0px 0px 20px;
+    margin: 20%;
   }
   * {
     margin: 0;
@@ -7,11 +11,9 @@
     box-sizing: border-box;
     font-size: 100%;
   }
-  .profile-card {
-    width: 480px;
-    max-width: calc(100vw - 10px);
-  }
+  
   body {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,13 +46,15 @@
   }
   .head, .about {
     margin-bottom: 10%;
+    font-size: 20px;
+    
   }
   
   .content {
     padding: 5% 10%;
   }
   body {
-    background: url('https://i.imgur.com/v7K1fPy.jpg') no-repeat center center fixed;
+    background: url('assets/anim5.gif') no-repeat center center fixed;
     background-size: cover;
   }
   .profile-card {
@@ -59,7 +63,7 @@
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   }
   .profile-card {
-    background-color: hsla(0, 0%, 100%, .5);
+    background-color: hsla(0, 0%, 100%, 0.151);
     border-radius: 4px;
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
   }
@@ -77,5 +81,17 @@
     filter: grayscale(20%);
   }
   .ikon{
-    color:white;
+    color: yellow;
+    font-size: 27px;
+  }
+  .name_headline{
+    font-family: 'Raleway', sans-serif;
+  }
+  h1{
+    font-size: 75px;
+    color: yellow;
+    font-family: 'Qwitcher Grypen', cursive;
+  }
+  h2 {
+    font-size: 27px;
   }
